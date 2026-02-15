@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealEstate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-image">
+                <a href="/"><img  src="assets/images/logo-removebg-preview.png" alt="logo">
+                </a>
+                <h1>عقار</h1>
+            </div>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">حول الشركة</a></li>
+                <li><a href="#products">العقارات</a></li>
+                <li><a href="#">المدونة</a></li>
+                <li><a href="#">أتصل بنا</a></li>
+            </ul>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-solid fa-x"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="#"><i class="fa-solid fa-bars mobile-nav-icon" id="mobile-nav-icon"></i></a>
+            
+        </nav>
+       </header>
+    
+    
+    
+    
+       <aside id="aside">
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="/">
+                <img class="logo" src="assets/images/logo-removebg-preview.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">حول الشركة</a></li>
+                <li><a href="#">العقارات</a></li>
+                <li><a href="#">المدونة</a></li>
+                <li><a href="#">أتصل بنا</a></li>
+            </ul>
+            <form action="">
+                <input type="text">
+            </form>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-solid fa-x"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="cta">
+                <a class="btn-primary">اتصل بنا</a>
+                <a class="btn-secondary">المزيد</a>
+            </div>
+    
+        </div>
+       </aside>
+
+       <section class="hero-section">
+            <div class="hero">
+                <div class="overlay"></div>
+                <div class="hero-info">
+                    <h1>الشركة العقارية هوم</h1>
+                    <p>
+                        شركة عقار تعمل كوسيط ومطور ومستثمر، وتلعب دوراً محورياً في حركة السوق العقاري، من خلال بناء وتطوير وإدارة وبيع وتأجير الأصول العقارية، مع التركيز على القيمة المضافة والجودة العالية.
+                    </p>
+                    <a class="btn-primary">المزيد</a>
+                </div>
+                <form action="">
+                    <div class="search-area">
+                        <div class="search">
+                            <select type="text" value="موقع العقار">
+                                <option value="" disabled selected>أختر موقع العقار</option>
+                                <option value="">سوريا</option>
+                                <option value="">العراق</option>
+                                <option value="">لبنان</option>
+                            </select>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="search">
+                            <select type="text" value="صنف العقار">
+                                <option value="" disabled selected>أختر صنف العقار</option>
+                                <option value="">بيت ريفي</option>
+                                <option value="">فيلا </option>
+                                <option value="">شقة </option>
+                                <option value="">مكتب برجي</option>
+                            </select>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        
+                        <div class="search">
+                            <select type="text" value="نوع العقار">
+                                <option value="" disabled selected>أختر نوع العقار</option>
+                                <option value="">شراء</option>
+                                <option value="">أجار</option>
+                                <option value="">بيع</option>
+                                <option value="">رهن</option>
+                            </select>
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <div class="search">
+                            <select type="text" value="السعر">
+                                <option value="" disabled selected>أختر السعر </option>
+                                <option value="">20m---50m</option>
+                                <option value="">100k--200k</option>
+                                <option value="">1m--2m</option>
+                                
+                            </select>
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="search">
+                            <input class="btn-primary" type="submit" value="بحث">
+                        </div>
+                        
+                    </div>
+                </form>
+    
+            </div>
+       </section>
+
+       <section class="about">
+        <div class="about-inner container">
+            <div class="about-right">
+                <h3>نبذة عن شركة عقار</h3>
+                <p>
+                    في موقع عقار جمعنا خبرات العقاريين مع التقنيات الحديثة لنبني حلول تقنية تخدم ادارة العقارات بشكل سهل و مريح. يعمل فريقنا التقني في شركة وحدة الحلول لتقنية المعلومات بمساعدة شركاء عقاريين بشكل مستمر لخدمة القطاع العقاري
+
+                </p>
+                
+               
+                <div class="services">
+                    <div class="service">
+                        <div class="serv-info">
+                            <h4> ادارة العقارات</h4>
+                            <p>كل عقاراتك من معلومات الصكوك و الوحدات و الخصائص و ارقام العدادات و الاشتراكات، ادارتها في مكان واحد. ما عاد تدور اوراق.</p>
+                        </div>
+                        <div class="serv-img">
+                            <img src="assets/images/service1.webp" alt="service1.jpg">
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="serv-info">
+
+                        <h4> ادارة الاملاك</h4>
+                        <p>تدير املاكك او املاك الغير .. ايجارات و تحصيل و عقود منصة ايجار، و اتفاقيات ادارة الاملاك و التحصيل و السداد للمالك. تابع كل شي من مكان واحد، ما يفوتك شي!
+                        </p>
+                        </div>
+
+                        <div class="serv-img">
+                            <img src="assets/images/service2.webp" alt="service1.jpg">
+                        </div>                    </div>
+                    <div class="service">
+                        <div class="serv-info">
+                        <h4>التطوير العقاري
+                        </h4>
+                        <p>من بداية التخطيط الى الميزانية و ادارة المستثمرين الى فرز الوحدات و اغلاق المشروع. ادارة مشاريع التطوير العقاري من منظور محاسبي.
+
+                        </p>
+                        </div>
+                        <div class="serv-img">
+                            <img src="assets/images/service3.webp" alt="service1.jpg">
+                        </div>                    </div>
+                </div>
+            </div>
+            <div class="about-left">
+                <img src="../../assets/images/about-img.jpg" alt="about-image.jpg">
+            </div>
+        </div>
+       </section>
+
+       <section class="products" id="products">
+        <h3 class="section-tittle">العقارات المتوفرة</h3>
+        <p class="section-desc">مجموعة من العقارات المتوفرة والمتميزة </p>
+        <div class="allproducts">
+            <a href="single-product.html">
+                <div class="product">
+                    <div class="image">
+                        <img src="assets/images/gallary/aqar (1).png" alt="aqar1.jpg">
+                    </div>
+                    <div class="info">
+                        <span class="cat">بيت ريفي</span>
+                        <h4>منزل ريفي للبيع</h4>
+                        <span class="location">حلب  الليرمون</span>
+                        <hr>
+                        <ul>
+                            
+                            <li>
+                                <span>غرفة</span>
+                                <span><i class="fa-solid fa-restroom"></i>3</span>
+                                
+                            </li>
+                            <li>
+                                <span>مطبخ </span>
+                                <span><i class="fa-solid fa-kitchen-set"></i>1</span>
+                            </li>
+                            <li>
+                                <span>حمام </span>
+                                <span><i class="fa-solid fa-bath"></i>2</span>
+                            </li>
+                            <li>
+                                <span>غرفة نوم </span>
+                                <span><i class="fa-solid fa-bed"></i>2</span>
+                            </li>
+                        </ul>
+                        <button class="btn-primary">للمزيد</button>
+                    </div>
+                </div>
+            </a>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/gallary/aqar (2).png" alt="aqar2.jpg">
+                </div>
+                <div class="info">
+                    <span class="cat">فيلا</span>
+                    <h4> فيلا حديثة</h4>
+                    <span class="location">حلب خان العسل</span>
+                    <hr>
+                    <ul>
+                        
+                        <li>
+                            <span>غرفة</span>
+                            <span><i class="fa-solid fa-restroom"></i>6</span>
+                            
+                        </li>
+                        <li>
+                            <span>مطبخ </span>
+                            <span><i class="fa-solid fa-kitchen-set"></i>3</span>
+                        </li>
+                        <li>
+                            <span>حمام </span>
+                            <span><i class="fa-solid fa-bath"></i>4</span>
+                        </li>
+                        <li>
+                            <span>غرفة نوم </span>
+                            <span><i class="fa-solid fa-bed"></i>4</span>
+                        </li>
+                    </ul>
+                    <button class="btn-primary">للمزيد</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/gallary/aqar (3).png" alt="aqar3.jpg">
+                </div>
+                <div class="info">
+                    <span class="cat"> شقة</span>
+                    <h4>  شقة سكنية</h4>
+                    <span class="location">حلب  الجديدة شمالي</span>
+                    <hr>
+                    <ul>
+                        
+                        <li>
+                            <span>غرفة</span>
+                            <span><i class="fa-solid fa-restroom"></i>4</span>
+                            
+                        </li>
+                        <li>
+                            <span>مطبخ </span>
+                            <span><i class="fa-solid fa-kitchen-set"></i>1</span>
+                        </li>
+                        <li>
+                            <span>حمام </span>
+                            <span><i class="fa-solid fa-bath"></i>2</span>
+                        </li>
+                        <li>
+                            <span>غرفة نوم </span>
+                            <span><i class="fa-solid fa-bed"></i>3</span>
+                        </li>
+                    </ul>
+                    <button class="btn-primary">للمزيد</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="assets/images/gallary/aqar (4).png" alt="aqar1.jpg">
+                </div>
+                <div class="info">
+                    <span class="cat"> مكتب</span>
+                    <h4> مكتب برجي</h4>
+                    <span class="location">حلب المحافظة </span>
+                    <hr>
+                    <ul>
+                        
+                        <li>
+                            <span>غرفة</span>
+                            <span><i class="fa-solid fa-restroom"></i>3</span>
+                            
+                        </li>
+                        <li>
+                            <span>مطبخ </span>
+                            <span><i class="fa-solid fa-kitchen-set"></i>1</span>
+                        </li>
+                        <li>
+                            <span>حمام </span>
+                            <span><i class="fa-solid fa-bath"></i>1</span>
+                        </li>
+                        <li>
+                            <span>غرفة نوم </span>
+                            <span><i class="fa-solid fa-bed"></i>3</span>
+                        </li>
+                    </ul>
+                    <button class="btn-primary">للمزيد</button>
+                </div>
+            </div>
+            
+        </div>
+       </section>
+
+       <section class="testimonials">
+        <h2 class="section-tittle">أراء العملاء الأكارم</h2>
+        <div class="all-testimonials">
+            <div class="testimonial">
+                <p class="review">صور وفيديوهات عالية الدقة: لإبراز جمال ومميزات العقار من الداخل والخارج.
+                </p>
+                <div class="info">
+                    <div class="image">
+                        <img src="assets/images/testimonials/testimonial.jfif" alt="">
+                    </div>
+                    <div>
+                        <h3>name</h3>
+                        <p class="work">developer</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="testimonial">
+                <p class="review">تفاصيل شاملة: معلومات دقيقة عن المساحة، عدد الغرف، المرافق، والموقع الجغرافي.
+                </p>
+                <div class="info">
+                    <div class="image">
+                        <img src="assets/images/testimonials/testimonial6.jfif" alt="">
+                    </div>
+                    <div>
+                        <h3>name</h3>
+                        <p class="work">developer</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="testimonial">
+                <p class="review">واقعية وعدم المبالغة: تجنب الوصف المبالغ فيه والتركيز على ما يوفره العقار فعليًا.
+                    واقعية وعدم المبالغة: تجنب الوصف المبالغ فيه والتركيز على ما يوفره العقار فعليًا.
+
+                </p>
+                <div class="info">
+                    <div class="image">
+                        <img src="assets/images/testimonials/testimonial2.jfif" alt="">
+                    </div>
+                    <div>
+                        <h3>name</h3>
+                        <p class="work">developer</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="testimonial">
+                <p class="review">تصميم متجاوب: يعمل بسلاسة على الهواتف المحمولة والأجهزة اللوحية.
+                    سرعة التحميل والتصفح: موقع سريع يقلل من إحباط المستخدم.
+
+                </p>
+                <div class="info">
+                    <div class="image">
+                        <img src="assets/images/testimonials/testimonial3.jfif" alt="">
+                    </div>
+                    <div>
+                        <h3>name</h3>
+                        <p class="work">developer</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="testimonial">
+                <p class="review">معلومات واضحة عن الأسعار: وضوح نطاق الأسعار دون تلاعب.
+                    معلومات عن الشركة وفريق العمل: لزيادة الثقة والمصداقية.
+
+                </p>
+                <div class="info">
+                    <div class="image">
+                        <img src="assets/images/testimonials/testimonial4.jfif" alt="">
+                    </div>
+                    <div>
+                        <h3>name</h3>
+                        <p class="work">developer</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="testimonial">
+                <p class="review">تصميم جذاب واحترافي: يعكس هوية الشركة ويعطي انطباعاً أولياً جيداً.
+                    توفير تجربة سلسة: من البحث حتى التواصل، مع التركيز على البساطة.
+
+                </p>
+                <div class="info">
+                    <div class="image">
+                        <img src="assets/images/testimonials/testimonial5.jfif" alt="">
+                    </div>
+                    <div>
+                        <h3>name</h3>
+                        <p class="work">developer</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       </section>
+
+       <section class="gallary">
+        <h3 class="section-tittle"> المعرض</h3>
+        <p class="section-desc">مجموعة من صور العقارات المتوفرة والمتميزة </p>
+        <div class="images">
+            <div class="image">
+                <a href="assets/images/gallary/aqar (1).png" data-fancybox="gallary" data-caption="Caption #1" target="_blank">
+                    <img src="assets/images/gallary/aqar (1).png" alt="">
+                </a>
+            </div>
+            <div class="image">
+                <a href="assets/images/gallary/aqar (2).png" data-fancybox="gallary" data-caption="Caption #2" target="_blank">
+                    <img src="assets/images/gallary/aqar (2).png" alt="">
+                </a>
+            </div>
+            <div class="image">
+                <a href="assets/images/gallary/aqar (3).png" data-fancybox="gallary" data-caption="Caption #3" target="_blank">
+                    <img src="assets/images/gallary/aqar (3).png" alt="">
+                </a>
+            </div>
+            <div class="image">
+                <a href="assets/images/gallary/aqar (4).png" data-fancybox="gallary" data-caption="Caption #4" target="_blank">
+                    <img src="assets/images/gallary/aqar (4).png" alt="">
+                </a>
+            </div>
+            <div class="image">
+                <a href="assets/images/gallary/aqar (1)1.png" data-fancybox="gallary" data-caption="Caption #1-1" target="_blank">
+                    <img src="assets/images/gallary/aqar (1)1.png" alt="">
+                </a>
+            </div>
+            <div class="image">
+                <a href="assets/images/gallary/aqar (1).png" data-fancybox="gallary" data-caption="Caption #11" target="_blank">
+                    <img src="assets/images/gallary/aqar (1).png" alt="">
+                </a>
+            </div>
+            
+        </div>
+       </section>
+
+       <section class="partners">
+        <h2 class="section-tittle">عملائنا المتميزون</h2>
+        <p class="section-desc">
+            تقديم خدمة عملاء متميزة هو الركيزة الأساسية لأي نشاط تجاري. يركز مدير خدمة العملاء  على تحسين تجربة العملاء، وتعزيز ارتياحهم، وتعزيز قاعدة عملاء الموقع.
+        </p>
+        <div class="logos">
+            
+            <div class="image">
+                <img src="assets/images/logos/1.png"  alt="logo1.jpg">
+            </div>
+            <div class="image">
+                <img src="assets/images/logos/2.png"  alt="logo1.jpg">
+            </div>
+            <div class="image">
+                <img src="assets/images/logos/3.png"  alt="logo1.jpg">
+            </div>
+            <div class="image">
+                <img src="assets/images/logos/4.png"  alt="logo1.jpg">
+            </div>
+            <div class="image">
+                <img src="assets/images/logos/5.png"  alt="logo1.jpg">
+            </div>
+            <div class="image">
+                <img src="assets/images/logos/6.png"  alt="logo1.jpg">
+            </div>
+            
+        </div>
+       </section>
+       
+       <section class="newblogs">
+        <h2 class="section-tittle">المدونة</h2>
+        <p class="section-desc">نشارك مع المعرفة ونقدم لك النصائح ,احدث الأخبار المتعلقة بالسوق العقاري</p>
+        <div class="allnewblogs">
+            <div class="blog">
+                <div class="blog-header">
+                    <img src="assets/images/blogs/رخصة-ترميم-768x431.jpg" width="350px" alt="">
+                </div>
+                <div class="blog-body">
+                  <span class="tag tag-teal">أخبار عقارية
+                </span>
+                  <h4>
+                    اصدار رخصة ترميم: الخطوات، الرسوم، والعقوبات
+                </h4>
+                  <p>
+                    تكمن أهمية استخراج رخصة ترميم لكونها تعد من الرخص البلدية المرتبطة بأعمال البناء القائمة، وتركّز على ضبط أعمال الإصلاح والتعديل في المباني المشيَّدة مسبقًا، سواء كانت وحدات سكنية مستقلة، شققًا في عمارة مشتركة، أو مباني تجارية...
+                  <a href="#"> <b>المزيد</b> </a>
+                </p>
+                  <div class="user">
+                    <img src="assets/images/testimonials/testimonial.jfif" width="90px" alt="">
+                    <div class="user-info">
+                      <h5>بدر الحسني</h5>
+                      <small>منذ 2 سا</small>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-header">
+                    <img src="assets/images/blogs/تكلفة-تأسيس-السباكة-في-السعودية-2026-وخطوات-التأسيس-375x292.jpg" width="350px" alt="">
+                </div>
+                <div class="blog-body">
+                  <span class="tag tag-pink">البناء والمقاولات</span>
+                  <h4>تكلفة تأسيس السباكة في السعودية 2026 وخطوات التأسيس</h4>
+                  <p>
+                    تأسيس السباكة في السعودية يعتمد على مجموعة عوامل فنية تحدد الكلفة النهائية مثل نوع المواد، عدد النقاط، أطوال المسارات، ومستوى التشطيب. تقدير التكلفة يتم عبر قائمة كميات تشمل مواد التغذية والصرف والتهوية والصمامات وأجور التنفيذ...
+                    <a href="#"> <b>المزيد</b> </a>
+
+                </p>
+                  <div class="user">
+                    <img src="assets/images/testimonials/testimonial2.jfif" width="90px" alt="">
+                    <div class="user-info">
+                      <h5>سماهر السعيد</h5>
+                      <small>منذ 3 سا</small>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-header">
+                    <img src="assets/images/blogs/تكلفة-بناء-مطبخ-كامل-في-السعودية-2026-768x583.jpg" width="350px" alt="">
+                </div>
+                <div class="blog-body">
+                  <span class="tag tag-purple">الديكور</span>
+                  <h4>تكلفة بناء مطبخ كامل في سوريا 2026
+                </h4>
+                  <p>
+                    تدخل تكلفة بناء مطبخ ضمن بنود الإنفاق الرئيسية في تجهيز الوحدات السكنية، سواء في الشقق أو الفلل. يرتبط المبلغ الإجمالي بعدة عوامل فنية، من بينها مساحة المطبخ، نوع الخامات، مستوى التشطيب، تكاليف العمالة، وعدد الأجهزة والخدمات المرتبطة بالمطبخ. يظهر الفرق بوضوح بين بناء مطبخ جديد ضمن مشروع قيد الإنشاء،
+                    <a href="#"> <b>المزيد</b> </a>
+
+                </p>
+                  <div class="user">
+                    <img src="assets/images/testimonials/testimonial3.jfif" width="90px" alt="">
+                    <div class="user-info">
+                      <h5>لين فستق</h5>
+                      <small>منذ 4 د</small>
+                    </div>
+                  </div>
+                </div>
+            </div>
+           
+        </div>
+       </section>
+
+
+
+       <footer class="footer ">
+        <div class="f-header">
+            <h2 class="f-header header-animation">عـــــقـــــار</h2>
+        </div>
+        <div class="f-main">
+            <div class="f1">
+                <img src="assets/images/logo-removebg-preview.png" alt="logo image">
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="f2">
+                <h3 class="f2-tittle">الرئيسية</h3>
+                <ul>
+                    <li><a href="">الرئيسية</a></li>
+                    <li><a href="">حول الشركة</a></li>
+                    <li><a href="">العقارات</a></li>
+                    <li><a href="">المدونة</a></li>
+                    <!-- <li><a href="">link</a></li> -->
+                    
+                    
+                </ul>
+            </div>
+            <div class="f3">
+                <h3 class="f3-tittle">روبط هامة</h3>
+                <ul>
+                    <li><a href="">شركائنا</a></li>
+                    <li><a href="">العقارات المتوفرة</a></li>
+                    <li><a href="">الديكور</a></li>
+                    <li><a href="">إصدار الرخص</a></li>
+                    
+                </ul>
+            </div>
+            <div class="f4">
+                <form action="">
+                    <h3 class="f4-tittle">النشرة البريدية</h3>
+                    <input type="text" placeholder="أدخل ايميلك الخاص">
+                    <button class="btn-secondary">إشتراك</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>CopyRight &copy  to ghassan,
+                EMAIL: <a href="mailto:ghassanalhammadeh87@gmail.com">ghassanalhammadeh87@gmail.com</a>
+            </span>
+           
+        </div>
+       </footer>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+   <script>
+   Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+  });
+  </script>
+   <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "realestate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/style.scss:assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "ghassan",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.97.2"
+  }
+}

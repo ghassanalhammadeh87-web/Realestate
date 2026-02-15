@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: $bgColor1;
+    font-family: cairo;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: almarai;
+    color: $mainColor;
+}
+h2{
+    font-family:almarai ;
+    color: $secondColor;
+    
+  }
+
+img{    
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+.section-tittle{
+    color: $mainColor;
+    font-size: 30px;
+    font-family: almarai;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        $mainColor,
+        white 35%,
+        white 65%,
+        $mainColor);
+        background-repeat: no-repeat;
+        background-size: 100% 2px;
+        background-position: 0 center;
+}
+.section-desc{
+    font-size: 20px;
+    text-align: center;
+}
+.header-animation{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Noto Sans", sans-serif;
+    background-image: url('../../assets/images/gallary/aqar\ \(1\)1.png');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate{
+    to{
+        background-position-x: -500px;
+    }
+}

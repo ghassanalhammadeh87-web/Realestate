@@ -1,0 +1,26 @@
+%btn{
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-family: cairo;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary{
+    @extend %btn;
+    background-color: $mainColor;
+
+    &:hover{
+        background-color: darken($mainColor,10%);
+    }
+}
+.btn-secondary{
+    @extend %btn;
+    background-color: $secondColor;
+    &:hover{
+        background-color: darken($secondColor,10%);
+        // background-color: color.scale($secondColor, $lightness: -20.564516129%);
+        // background-color:$secondColor.adjust($secondColor, $lightness: -10%);;
+    }
+}

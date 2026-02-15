@@ -1,0 +1,66 @@
+aside{
+    background-color: #eee;
+    width: 250px;
+    height: calc(100vh - 60px);
+    margin-top: 5px;
+    border-bottom-left-radius: 10px;
+    position: fixed;
+    right: -250px;
+    transition: 0.3s;
+    z-index: 1001;
+    .mobile-menu{
+        padding: 20px;
+        .logo{
+            width: 120px;
+        }
+        ul{
+            li{
+                padding: 10px;
+                border-bottom: 1px solid #ccc;
+                transition: 0.3s;
+                &:hover{
+                    background-color: $mainColor;
+                    border-radius: 5px;
+                    a{color: white;}
+                }
+                a{color: $mainColor;font-weight: 600;}
+            }
+        }
+        form{
+            width: 100%;
+            margin-top: 20px;
+            input{
+                width: 100%;
+                height: 30px;
+                padding: 5px 20px;
+                border: 1px solid #bdb1b1;
+                border-radius: 5px;
+                &:focus{
+                    outline: none;
+                    background-color: #ccc;
+
+                }
+
+            }
+        }
+        .icons{
+            @include flexbox(start,center,row);
+            gap: 15px;
+            margin-top: 20px;
+            i{
+                font-size: 25px;
+                color: $mainColor;
+                transition: 0.3s;
+                &:hover{
+                    color: $secondColor;
+                    scale: 1.2;
+                }
+            }
+        }
+        .cta{
+            @include flexbox(start,center,row);
+            gap: 20px;
+            margin-top: 10px;
+        }
+    }
+}
